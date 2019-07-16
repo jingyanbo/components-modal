@@ -10,6 +10,11 @@ export default new Router({
       path: '/',
       name: 'HelloWorld',
       component: HelloWorld
+    },
+    {
+      path: '/list_com',
+      name: 'ListCom',
+      component: ()=>import('../../examples/list_com')
     }
   ]
 })
